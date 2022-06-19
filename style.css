@@ -1,0 +1,53 @@
+*{
+	margin:10px;
+	padding:0;
+	box-sizing: border-box;
+}
+/*background image for desktop*/
+@media screen and (max-width: 1440px){
+	body{
+	background-image:url("images/bg-hero-desktop.svg")  ;
+}
+}
+
+@media screen and (max-width: 375px){
+	body{
+	background-image:url("images/bg-hero-mobile.svg")  ;
+}
+}
+
+.header-top{
+	margin: auto;
+	display: flex;
+
+}
+.top-button{
+	position: relative;
+	left: 60%;
+	border: none;
+	Font size: 15px;
+	border-radius: 10px;
+	width: 150px;
+}
+.up-button{
+	border: 1px solid white;
+	background-color: white;
+	box-shadow: ;
+	Font size: 15px;
+	border-radius: 15px;
+	width: 150px;
+	height: 30px;
+}
+.header-button{
+	display: flex;
+}
+.box1{
+	width: 50%;
+}
+.box2{
+	width: 50%;
+}
+#mockup{
+	width: 200px;
+	height: 300px;
+}
