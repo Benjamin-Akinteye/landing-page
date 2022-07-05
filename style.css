@@ -243,7 +243,7 @@ footer .socials {
 @media (max-width: 376px) {
   /* hero-section */
 
-  .hero-section {
+  .header-section {
     padding: 20px;
     background: var(--pale-cyan) url("images/bg-hero-mobile.svg") no-repeat;
   }
@@ -253,10 +253,10 @@ footer .socials {
   .logo img {
     height: 18px;
   }
-  .hero-content {
+  .header-content {
     flex-direction: column;
   }
-  .hero-content .text-info {
+  .header-content .text-info {
     text-align: center;
     padding-right: 0px;
     margin: 3rem 0;
@@ -264,27 +264,27 @@ footer .socials {
 
   /* feature-section  */
 
-  .features-section {
+  .main-section {
     padding: 100px 20px 200px 20px;
   }
 
-  .features-section h2 {
+  .main-section h2 {
     font-size: 25px;
   }
 
-  .feature {
+  .container {
     flex-direction: column-reverse;
     text-align: center;
     height: 500px;
     padding: 30px 20px;
   }
 
-  .feature .illustration img {
+  .container .illustration img {
     height: auto;
     width: 90%;
   }
 
-  .feature:nth-child(even) {
+  .container:nth-child(even) {
     flex-direction: column-reverse;
   }
 
